@@ -1,0 +1,11 @@
+EightPuzzle x = new EightPuzzle();
+x.randomizeState(10);
+x.printState();
+
+x.solveAStar("h1");
+
+x.randomizeState(10);
+x.solveAStar("h2");
+
+x.randomizeState(10);
+x.solveBeam(4);
